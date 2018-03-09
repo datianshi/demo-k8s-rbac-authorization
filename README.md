@@ -65,7 +65,7 @@ Error from server (Forbidden): pods is forbidden: User "shaozhen" cannot list po
 
   ```
   kubectl get pods -n demo-authz
-No resources found.
+  No resources found.
   ```
 
 ## Create deployments with **shaozhen** failed
