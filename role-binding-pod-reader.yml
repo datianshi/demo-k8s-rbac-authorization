@@ -7,6 +7,9 @@ subjects:
 - kind: User
   name: shaozhen
   apiGroup: rbac.authorization.k8s.io
+- kind: ServiceAccount
+  name: sa-sample
+  namespace: demo-authz
 roleRef:
   kind: Role
   name: pod-reader
